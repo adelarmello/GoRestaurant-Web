@@ -79,6 +79,8 @@ const Dashboard: React.FC = () => {
 
   function handleEditFood(food: IFoodPlate): void {
     // TODO SET THE CURRENT EDITING FOOD ID IN THE STATE
+
+    toggleEditModal(); //Abre o Modal pra ediçao
   }
 
   return (
